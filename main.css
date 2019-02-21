@@ -1,23 +1,31 @@
 html {
     font-family: Montserrat,Open Sans,Helvetica Neue,Arial;
     color: #484e50;
-    background-color:lightseagreen;
+    background-color:darkcyan;
 }
 
 h1  {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .header {
-    text-align: center;
+   display: flex;
+   flex-direction: row;
 }
 
 #protagonist-pic {
     display: block;
-    max-width: 350px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    height: 250px;
+    margin: 25px;
+    border: 2px solid lightslategray;
+    border-radius: 100%;
+    background-color: darkslategrey;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .pics {
@@ -27,6 +35,10 @@ h1  {
 }
 
 
-/* .famous-people-pic {
+.famous-people-pic {
     max-width: 200px;
-} */
+    height: auto;
+}
+
+/*  4. Use flexbox to create a layout of cards for each of the following parts addressed in the description of your personality
+    6. Use flexbox to display images of famous people with your personality type.
