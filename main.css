@@ -1,0 +1,32 @@
+html {
+    font-family: Montserrat,Open Sans,Helvetica Neue,Arial;
+    color: #484e50;
+    background-color:lightseagreen;
+}
+
+h1  {
+    font-size: 3em;
+}
+
+.header {
+    text-align: center;
+}
+
+#protagonist-pic {
+    display: block;
+    max-width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+}
+
+
+/* .famous-people-pic {
+    max-width: 200px;
+} */
