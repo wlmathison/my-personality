@@ -45,6 +45,7 @@ h1 {
 
 .pics {
     display: flex;
+    justify-content: space-between
 }
 
 
