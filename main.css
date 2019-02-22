@@ -1,18 +1,18 @@
 html {
-    font-family: Montserrat,Open Sans,Helvetica Neue,Arial;
+    font-family: Montserrat, Open Sans, Helvetica Neue, Arial;
     color: #484e50;
-    background-color:darkcyan;
-}
-
-h1  {
-    font-size: 4em;
-    margin-top: 45px;
-    margin-bottom: 15px;
+    background-color: darkcyan;
 }
 
 .header {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 45px;
+    margin-bottom: 15px;
 }
 
 #protagonist-pic {
@@ -31,13 +31,13 @@ h1  {
     list-style: none;
 }
 
-.profile > h3 {
+.profile>h3 {
     padding-left: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.profile > p {
+.profile>p {
     padding-left: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -56,5 +56,37 @@ h1  {
     border-radius: 5%;
 }
 
-/*  4. Use flexbox to create a layout of cards for each of the following parts addressed in the description of your personality
-    6. Use flexbox to display images of famous people with your personality type.
+.link {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+a {
+    color: lightgreen;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.type-description-list {
+    list-style-type: circle;
+}
+
+.type-description-header,
+.famous-people-header {
+    font-size: 30px;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+article.type-description {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
