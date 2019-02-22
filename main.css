@@ -45,14 +45,15 @@ h1  {
 
 .pics {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 200px;
 }
 
 
 .famous-people-pic {
-    max-width: 200px;
-    height: auto;
+    max-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5%;
 }
 
 /*  4. Use flexbox to create a layout of cards for each of the following parts addressed in the description of your personality
